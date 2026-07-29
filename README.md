@@ -1,4 +1,4 @@
-# Boss of the SOC (BOTSv1) - Threat Hunting Investigation with Splunk
+# Threat Hunting Investigation with Splunk
 
 ## Project Overview
 This repository contains a comprehensive Blue Team threat hunting investigation utilizing **Splunk Enterprise** to analyze the Boss of the Splunk version 1 (BOTSv1) dataset. The project includes investigation on a multi-stage cyberattack against Wayne Enterprises' infrastructure, where the attacker was responsible for defacement of a Joomla-based web server.
