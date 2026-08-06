@@ -12,4 +12,4 @@ This repository contains Blue Team labs utilizing various tools used in SOC. It 
 
 * [Packet Analysis with Wireshark](https://github.com/dhakalaayush/Threat-Hunting-Investigation-with-Splunk/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This project documents the analysis of a packet capture (pcap) file from the "Carnage" room of TryHackMe in Wireshark.
 
-* [Incident Detection and Analysis with Splunk](https://github.com/dhakalaayush/Threat-Hunting-Investigation-with Splunk/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This project is an incident response investigation using Splunk from the "Incident Detection and Analysis" room of TryHackMe.
+* [Incident Detection and Analysis with Splunk](https://github.com/dhakalaayush/Threat-Hunting-Investigation-withSplunk/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This project is an incident response investigation using Splunk from the "Incident Detection and Analysis" room of TryHackMe.
