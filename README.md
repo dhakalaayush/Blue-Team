@@ -1,29 +1,15 @@
-# Threat Hunting Investigation with Splunk
+# Blue Team
+This repository contains Blue Team labs utilizing various tools used in SOC. It contains detailed documentation, configuration files, and analysis reports from various security investigations, log analysis, network monitoring, etc.
 
-## Project Overview
-This repository contains a comprehensive Blue Team threat hunting investigation utilizing **Splunk Enterprise** to analyze the Boss of the Splunk version 1 (BOTSv1) dataset. The project includes investigation on a multi-stage cyberattack against Wayne Enterprises' infrastructure, where the attacker was responsible for defacement of a Joomla-based web server.
+## Tools used
 
-# Tool used
-- Splunk Enterprise
+* Splunk Enterprise
+* Wireshark
 
-## Telemtry
-- Windows Event Logs
-- Sysmon
-- IIS Web Server Logs
-- Network Streams
-- Fortinet Firewall Logs
-- Suricata IDS Alerts
+## Documentations
 
-# Investigation Methodology
-The threat hunting was structured according to cyber kill chain, i.e. the attacker progression.
-1.  **Reconnaissance:** Identified automated vulnerability scanning (Acunetix) targeting the web infrastructure.
-2.  **Delivery:** Tracked a high-volume brute-force attack originating from a secondary IP address against the Joomla administrator portal.
-3.  **Exploitation:** Analyzed malicious post-authentication enumeration using the `com_extplorer` Joomla component.
-4.  **Installation:** Verified the upload and execution of a malicious payload (`3791.exe`) leveraging Sysmon Event ID 1 (Process Creation) and file hash analysis.
-5.  **Action on Objectives:** Confirmed the final defacement of the web server (`poisonivy-is-coming-for-you-batman.jpeg`).
+* [Threat Hunting with Splunk](https://github.com/dhakalaayush/Threat-Hunting-Investigation-with-Splunk/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This repository contains a comprehensive Blue Team threat hunting investigation utilizing **Splunk Enterprise** to analyze the Boss of the Splunk version 1 (BOTSv1) dataset. The project includes investigation on a multi-stage cyberattack against Wayne Enterprises' infrastructure, where the attacker was responsible for defacement of a Joomla-based web server.
 
-## Key Findings
-1.	The attacker (40.80.148.42) used free edition of Acunetix Web Vulnerability Scanner to scan vulnerabilities in the website iamreallynotbatman.com (192.168.250.70). The website was also using the CMS Joomla.
-2.	The attacker tried to brute-force using the IP address 23.22.63.114.
-3.	The attacker uses the server with the domain name prankglassinebracket.jumpingcrab.com to upload malware or deface the website.
-4.	The attacker defaced the website by posting the image poisonivy-is-coming-for-you-batman.jpeg.
+* [Packet Analysis with Wireshark](https://github.com/dhakalaayush/Threat-Hunting-Investigation-with-Splunk/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This project documents the analysis of a packet capture (pcap) file from the "Carnage" room of TryHackMe in Wireshark.
+
+* [Incident Detection and Analysis with Splunk](https://github.com/dhakalaayush/Threat-Hunting-Investigation-with Splunk/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This project is an incident response investigation using Splunk from the "Incident Detection and Analysis" room of TryHackMe.
