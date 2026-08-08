@@ -5,6 +5,7 @@ This repository contains Blue Team labs utilizing various tools used in SOC. It 
 
 * Splunk Enterprise
 * Wireshark
+* Linux
 
 ## Documentations
 
