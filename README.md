@@ -15,4 +15,4 @@ This repository contains Blue Team labs utilizing various tools used in SOC. It 
 
 * [Incident Detection and Analysis with Splunk](https://github.com/dhakalaayush/Blue-Team/blob/main/Incident%20Dectection%20and%20Analysis%20with%20Splunk.pdf): This documentation is an incident response investigation using Splunk from the "Incident Detection and Analysis" room of TryHackMe.
 
-* [Sysmon Log Analysis](https://github.com/dhakalaayush/Blue-Team/blob/main/Sysmon%20log%20analysis.pdf): This documentation analyzes sysmon logs of a compromised endpoint in Linux CLI. It is the Log Analysis-Sysmon challenge from BTLO. 
+* [Sysmon Log Analysis](https://github.com/dhakalaayush/Blue-Team/blob/main/Sysmon%20log%20analysis.pdf): This documentation analyzes sysmon logs of a compromised endpoint in Linux CLI. It based on Log Analysis-Sysmon challenge from BTLO. 
