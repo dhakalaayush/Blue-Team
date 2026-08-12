@@ -18,3 +18,5 @@ This repository contains Blue Team labs utilizing various tools used in SOC. It 
 * [Sysmon Log Analysis](https://github.com/dhakalaayush/Blue-Team/blob/main/Sysmon%20log%20analysis.pdf): This documentation analyzes sysmon logs of a compromised endpoint in Linux CLI. It based on Log Analysis-Sysmon challenge from BTLO. 
 
 * [Bruteforce Investigation with Splunk](https://github.com/dhakalaayush/Blue-Team/blob/main/Bruteforce%20Investigation%20with%20Splunk.pdf): This documentation investigates the RDP bruteforce logs in Splunk from "Bruteforce" challenge from BTLO.
+
+* [Audit File Investigation](https://github.com/dhakalaayush/Blue-Team/blob/main/Audit%20File%20Investigation.pdf): This documentation investigates an attack from audit.log file from "Paranoid" challenge from BTLO.
