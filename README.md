@@ -9,14 +9,16 @@ This repository contains Blue Team labs utilizing various tools used in SOC. It 
 
 ## Documentations
 
-* [Threat Hunting with Splunk](https://github.com/dhakalaayush/Blue-Team/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This documentation contains a comprehensive Blue Team threat hunting investigation utilizing **Splunk Enterprise** to analyze the Boss of the Splunk version 1 (BOTSv1) dataset. The project includes investigation on a multi-stage cyberattack against Wayne Enterprises' infrastructure, where the attacker was responsible for defacement of a Joomla-based web server.
+* [Threat Hunting with Splunk](https://github.com/dhakalaayush/Blue-Team/blob/main/Threat%20Hunting%20with%20Splunk.pdf): This documentation contains a comprehensive Blue Team threat hunting investigation utilizing **Splunk Enterprise** to analyze the Boss of the Splunk version 1 (BOTSv1) dataset. It includes investigation on a multi-stage cyberattack against Wayne Enterprises' infrastructure, where the attacker was responsible for defacement of a Joomla-based web server.
 
 * [Packet Analysis with Wireshark](https://github.com/dhakalaayush/Blue-Team/blob/main/Packet%20Analysis%20with%20Wireshark.pdf): This project documents the analysis of a packet capture (pcap) file from the "Carnage" room of TryHackMe in Wireshark.
 
 * [Incident Detection and Analysis with Splunk](https://github.com/dhakalaayush/Blue-Team/blob/main/Incident%20Dectection%20and%20Analysis%20with%20Splunk.pdf): This documentation is an incident response investigation using Splunk from the "Incident Detection and Analysis" room of TryHackMe.
 
-* [Sysmon Log Analysis](https://github.com/dhakalaayush/Blue-Team/blob/main/Sysmon%20log%20analysis.pdf): This documentation analyzes sysmon logs of a compromised endpoint in Linux CLI. It based on Log Analysis-Sysmon challenge from BTLO. 
+* [Sysmon Log Analysis](https://github.com/dhakalaayush/Blue-Team/blob/main/Sysmon%20log%20analysis.pdf): This documentation analyzes sysmon logs of a compromised endpoint in Linux CLI. It based on "Log Analysis-Sysmon" challenge from BTLO. 
 
 * [Bruteforce Investigation with Splunk](https://github.com/dhakalaayush/Blue-Team/blob/main/Bruteforce%20Investigation%20with%20Splunk.pdf): This documentation investigates the RDP bruteforce logs in Splunk from "Bruteforce" challenge from BTLO.
 
 * [Audit File Investigation](https://github.com/dhakalaayush/Blue-Team/blob/main/Audit%20File%20Investigation.pdf): This documentation investigates an attack from audit.log file from "Paranoid" challenge from BTLO.
+
+* [Insider Investigation](https://github.com/dhakalaayush/Blue-Team/blob/main/Insider%20Investigation.pdf): This documentation investigates an insider responsible for leaking confidential information and a whistleblower notifying the presence of insider, It is based on "Have a Break" challenge of TryHackMe.
